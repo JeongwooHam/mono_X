@@ -136,6 +136,9 @@ importers:
 
   packages/web:
     dependencies:
+      '@mono/core':
+        specifier: workspace:^
+        version: link:../core
       next:
         specifier: 14.0.4
         version: 14.0.4(react-dom@18.2.0)(react@18.2.0)
