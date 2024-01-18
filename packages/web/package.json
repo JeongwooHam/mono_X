@@ -2,6 +2,7 @@
   "name": "@mono/web",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +10,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mono/core": "workspace:^", 
+    "@mono/core": "workspace:^",
+    "@stylexjs/stylex": "^0.4.1",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@stylexjs/babel-plugin": "^0.4.1",
+    "@stylexjs/dev-runtime": "^0.4.1",
+    "@stylexjs/eslint-plugin": "^0.4.1",
+    "@stylexjs/nextjs-plugin": "^0.4.1",
+    "@stylexjs/rollup-plugin": "^0.4.1",
+    "@stylexjs/webpack-plugin": "^0.4.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
